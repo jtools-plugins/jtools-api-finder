@@ -24,7 +24,7 @@
 
 每轮迭代用同一套步骤，便于核对前后的行为：
 
-1. 用 `gradle shadowJar` 生成 `build/libs/api-finder-1.2.0-plugin.jar`。
+1. 用 `gradle shadowJar` 生成 `build/libs/api-finder-0.0.1-plugin.jar`。
 2. 通过 MCP 启动沙箱，用 `ping` 确认就绪，再用 `run` 临时加载 JAR；换包前先 `stop`。不把开发中的 JAR 反复安装到日常 IDE。
 3. 在沙箱项目放入虚构的路由样例，确认空查询能浏览所有样例、正确方法能命中、错误方法不会误匹配，以及选中结果后能预览处理函数。
 4. 根据实际输出继续调整，保留必要的截图和未覆盖项。当前版本的截图及结果见 [README 的沙箱验收](../README.md#沙箱验收)。

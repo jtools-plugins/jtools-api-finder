@@ -62,7 +62,7 @@ public final class ApiFinderPlugin implements IPlugin {
 
     @Override
     public String pluginVersion() {
-        return "1.2.0";
+        return "0.0.1";
     }
 
     private Icon icon(String path, int size) {

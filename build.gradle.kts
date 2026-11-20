@@ -16,7 +16,7 @@ dependencies {
 }
 
 group = "apifinder"
-version = "1.2.0"
+version = "0.0.1"
 
 val sdkFile = file(providers.gradleProperty("jtoolsSdk").orElse("${System.getProperty("user.home")}/.jtools/sdk/sdk.jar").get())
 require(sdkFile.isFile) { "缺少 JTools SDK: $sdkFile；用 -PjtoolsSdk 指定实际 SDK JAR" }

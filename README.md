@@ -7,7 +7,7 @@ API Finder 是 [JTools](https://github.com/lhstack/JTools) 的路由查找扩展
 ## 安装
 
 1. 在 IntelliJ IDEA 中安装并启用 [JTools](https://plugins.jetbrains.com/plugin/com.lhstack.tools)；确保 IDE 的 Java 插件已启用。
-2. 按下文构建 `build/libs/api-finder-1.2.0-plugin.jar`。
+2. 按下文构建 `build/libs/api-finder-0.0.1-plugin.jar`。
 3. 在 **JTools 的插件管理**中从本地安装此 JAR，再打开 **API Finder** 面板。该 JAR 是 JTools 扩展，不通过 IntelliJ IDEA 的「从磁盘安装插件」入口安装。
 
 ## 使用
@@ -61,7 +61,7 @@ gradle clean shadowJar \
   '-PjtoolsSdk=/path/to/sdk.jar'
 ```
 
-安装 `build/libs/api-finder-1.2.0-plugin.jar`。该 JAR 包含 Gson，不包含 JTools SDK 或 IntelliJ 平台类。
+安装 `build/libs/api-finder-0.0.1-plugin.jar`。该 JAR 包含 Gson，不包含 JTools SDK 或 IntelliJ 平台类。
 
 ## 开发文档
 
