@@ -1,0 +1,9 @@
+target/
+build/
+.gradle/
+.idea/
+.intellijPlatform/
+*.iml
+
+# Project-local MCP settings and upstream skill assets
+/.awake-claw/
